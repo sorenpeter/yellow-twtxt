@@ -1,0 +1,67 @@
+/* Twtxt extension, https://github.com/sorenpeter/yellow-twtxt */
+
+.twtxt li .date {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-size: 0.7rem
+}
+
+.twtxt li {
+    background-color: var(--code-bg);
+    margin-left: -2.5rem;
+    list-style: none;
+    border: thin solid var(--border);
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+} 
+
+/* http://jsbin.com/giqovotudi/edit?html,css,output */
+
+.twtxt p {   /*https://smolcss.dev/*/
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin: 0;
+    margin-top: 0.5rem;
+}
+
+.twtxt img {
+    margin-top: 0.2rem;
+    border: solid #666 1px;
+    max-width: 100%;
+    /*object-fit: scale-down;*/
+    /*aspect-ratio: 1 / 1;*/
+    object-fit: cover;
+    /*object-position: top left;*/
+    /*display: block;*/
+}
+
+.twtxt p a img {
+    margin: -0.2rem;
+}
+
+.twtxt-filter {
+    background-color: var(--notice3-bg);
+    border-radius: 0.25rem;
+    border: thin solid var(--notice3-accent);
+    font-size: small;
+    line-height: 1.5;
+    margin: 0 auto;    
+    padding: 0.25rem 0.5rem;
+    text-align: center;
+    width: fit-content; 
+}
+
+
+@media screen and (max-width: 760px) {
+    body {
+        /* Center body in page */
+        margin: 0.5rem;
+    }
+
+    .twtxt li {
+        margin-left:  -2.5rem;
+        /*margin-right: 0.5rem;*/
+    }
+}

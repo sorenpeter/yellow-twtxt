@@ -1,0 +1,25 @@
+#    __           __       __
+#   / /__      __/ /__  __/ /_
+#  / __/ | /| / / __/ |/_/ __/
+# / /_ | |/ |/ / /__>  </ /_
+# \__/ |__/|__/\__/_/|_|\__/
+#
+#
+# twtxt is a decentralized microblogging platform.
+# learn about it at https://github.com/buckket/twtxt
+# you can join at https://yarn.social
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+#   nick = YouName
+# avatar = http://example.com/avatar.png
+#    url = http://example.com/twtxt.txt
+#    gui = http://example.com/twtxt
+#
+# ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+#
+
+2015-12-12T12:00:00Z	Fiat lux!
+2016-02-01T11:00:00Z	This is just another example.
+2016-02-03T23:05:00Z	@<example http://example.org/twtxt.txt> welcome to twtxt!
+2021-01-17T19:09:02Z	Hello interwebs
